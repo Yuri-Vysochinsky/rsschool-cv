@@ -1,0 +1,12 @@
+.aaa {
+font-size: 2em;
+display: flex;
+}
+
+
+
+.bbb {
+    font-size: 200%;
+    flex-basis: 100px;
+    width: 200px;
+}
