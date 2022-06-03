@@ -17,3 +17,30 @@
 ## Скилы: 
 * HTML, CSS, JS
 * GitHub 
+## Кусок кода просто вытянутый с интернета:
+```
+    nf : function (a) {
+    var b,
+    c,
+    d,
+    e,
+    g,
+    f = " ",
+    k = ".",
+    h = 0,
+    l = "";
+    return 0 > a && (l = "-", a *= -1),
+    isNaN(h = Math.abs(h)) && (h = 2),
+    void 0 == k && (k =
+            ","),
+    void 0 == f && (f = "."),
+    b = parseInt(a = (+a || 0).toFixed(h)) + "",
+    c = 3 < (c = b.length) ? c % 3 : 0,
+    g = c ? b.substr(0, c) + f : "",
+    d = b.substr(c).replace(/(\d{3})(?=\d)/g, "$1" + f),
+    e = h ? k + Math.abs(a - b).toFixed(h).replace(/-/, 0).slice(2) : "",
+    l + g + d + e
+```
+
+## Образование:
+Житомирский военный институт национального авиационного университета, 2007 - 2012
