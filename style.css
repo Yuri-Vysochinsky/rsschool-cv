@@ -17,10 +17,6 @@ html, body, h1, h2, h3, h4 {
     display: flex;
     align-items: flex-start;
 }
-.sidebar {
-    position: sticky;
-    top: 0;
-}
 
 .info-item-link {
     color: #FFFFFF;
@@ -43,13 +39,17 @@ body {
 .sidebar {
     width: 370px;
     background-color: #1E2939;
-    padding-top: 40px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    position: sticky;
+    top: 0;
 }
 
 .fotoCV {
     width: 370px;
     height: auto;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .list-info-title {
@@ -58,6 +58,7 @@ body {
     font-size: 22px;
     line-height: 27px;
     color: #FFFFFF;
+    padding-left: 20px;
 }
 
 .info-item-no-list {
@@ -65,7 +66,7 @@ body {
 }
 
 .info-items {
-    padding-left: 20px;
+    padding-left: 40px;
     margin-bottom: 50px;
 }
 
@@ -101,10 +102,25 @@ li.info-item::before {
 }
 
 main {
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 100px;
     padding-left: 88px;
+    padding-right: 48px;
 }
+
+.main_navigation {
+    margin: 0 auto;
+}
+
+.nav-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 40px;
+}
+ 
 
 .bio {
     margin-bottom: 40px;
@@ -129,12 +145,12 @@ main {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    width: 525px;
 }
 
 .Projects,
 .work,
-.education {
+.education,
+.code {
     margin-bottom: 50px;
 }
 
