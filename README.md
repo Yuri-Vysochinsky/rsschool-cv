@@ -1,2 +1,2 @@
-* https://yuri-vysochinsky.github.io/rsschool-cv/cv
-* https://yuri-vysochinsky.github.io/rsschool-cv/
+https://yuri-vysochinsky.github.io/rsschool-cv/cv
+https://yuri-vysgit 
