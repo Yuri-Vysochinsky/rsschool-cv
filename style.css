@@ -211,5 +211,8 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
+.footer_link_img {
+    width: 75px;
 }
